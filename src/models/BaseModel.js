@@ -1,0 +1,9 @@
+hospital_id
+branch_id
+created_by
+updated_by
+deleted_by
+is_active
+created_at
+updated_at
+deleted_at

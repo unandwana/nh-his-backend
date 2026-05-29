@@ -1,11 +1,5 @@
 const { Sequelize } = require('sequelize')
 
-console.log({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  db: process.env.DB_NAME_ADMIN
-})
-
 const sequelize = new Sequelize(
   process.env.DB_NAME_ADMIN,
   process.env.DB_USER,
